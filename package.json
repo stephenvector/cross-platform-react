@@ -1,0 +1,23 @@
+{
+  "main": "./electron/main.js",
+  "scripts": {
+    "build:web": "webpack",
+    "start:electron": "electron ./electron/main.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/preset-react": "^7.9.4",
+    "@babel/preset-typescript": "^7.9.0",
+    "babel-loader": "^8.1.0",
+    "electron": "^8.2.2",
+    "typescript": "^3.8.3",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-native-web": "^0.12.2"
+  }
+}
